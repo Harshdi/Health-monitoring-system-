@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <!-- Main Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Header -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/blue_primary">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📅 Book an Appointment"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:layout_marginBottom="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fill in the details to schedule a visit"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/white"
+                        android:alpha="0.8" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Appointment Form -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <!-- Full Name -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Full Name"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="14sp"
+                        android:layout_marginBottom="8dp"/>
+                    <EditText
+                        android:id="@+id/etPatientName"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:hint="Enter your full name"
+                        android:inputType="textPersonName"
+                        android:background="@drawable/input_background"
+                        android:padding="16dp"
+                        android:layout_marginBottom="16dp"/>
+
+                    <!-- Age -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Age"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="14sp"
+                        android:layout_marginBottom="8dp"/>
+                    <EditText
+                        android:id="@+id/etPatientAge"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:hint="Enter your age"
+                        android:inputType="number"
+                        android:background="@drawable/input_background"
+                        android:padding="16dp"
+                        android:layout_marginBottom="16dp"/>
+
+                    <!-- Mobile Number -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile Number"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="14sp"
+                        android:layout_marginBottom="8dp"/>
+                    <EditText
+                        android:id="@+id/etPatientPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:hint="Enter your mobile number"
+                        android:inputType="phone"
+                        android:background="@drawable/input_background"
+                        android:padding="16dp"
+                        android:layout_marginBottom="16dp"/>
+
+                    <!-- Appointment Date -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Preferred Appointment Date"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="14sp"
+                        android:layout_marginBottom="8dp"/>
+                    <EditText
+                        android:id="@+id/etAppointmentDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:hint="Select a date"
+                        android:drawableEnd="@drawable/ic_calendar"
+                        android:focusable="false"
+                        android:clickable="true"
+                        android:background="@drawable/input_background"
+                        android:padding="16dp"
+                        android:layout_marginBottom="16dp"/>
+
+                    <!-- Problem/Disease -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Problem / Disease"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="14sp"
+                        android:layout_marginBottom="8dp"/>
+                    <EditText
+                        android:id="@+id/etProblem"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:hint="Describe your health concern..."
+                        android:inputType="textMultiLine"
+                        android:gravity="top"
+                        android:background="@drawable/input_background"
+                        android:padding="16dp"
+                        android:layout_marginBottom="24dp"/>
+
+                    <!-- Submit Button -->
+                    <Button
+                        android:id="@+id/btnSubmitAppointment"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:text="Submit Appointment Request"
+                        android:textSize="16sp"
+                        android:background="@drawable/button_blue"
+                        android:textColor="@android:color/white"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Check Appointment Status -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Check Your Appointment Status"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="16dp"/>
+
+                    <EditText
+                        android:id="@+id/etCheckPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:hint="Enter your mobile number to check"
+                        android:inputType="phone"
+                        android:background="@drawable/input_background"
+                        android:padding="16dp"
+                        android:layout_marginBottom="16dp"/>
+
+                    <Button
+                        android:id="@+id/btnCheckStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:text="Check Status"
+                        android:textSize="16sp"
+                        android:background="@drawable/button_outline_blue"
+                        android:textColor="@color/blue_primary"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerViewAppointments"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <LinearLayout
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <LinearLayout
+            android:id="@+id/btnHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_home_gray"
+                android:layout_marginBottom="4dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textSize="12sp"
+                android:textColor="@color/gray_medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnAddReading"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_add"
+                android:layout_marginBottom="4dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Appointment"
+                android:textSize="12sp"
+                android:textColor="@color/blue_primary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnCharts"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_chart_gray"
+                android:layout_marginBottom="4dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Charts"
+                android:textSize="12sp"
+                android:textColor="@color/gray_medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_person_gray"
+                android:layout_marginBottom="4dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textSize="12sp"
+                android:textColor="@color/gray_medium" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "596149113860",
+    "project_id": "healthmonitoringsystem-e3c4d",
+    "storage_bucket": "healthmonitoringsystem-e3c4d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596149113860:android:973ef47334d30deb8c9151",
+        "android_client_info": {
+          "package_name": "com.harshdi.healthmonitoringsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Y5qZrlzYTHJjLMm0oXCpUdI0-t-_U5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
