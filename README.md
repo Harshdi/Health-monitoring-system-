@@ -13,16 +13,7 @@ The system provides separate workflows for **Patients and Doctors**, with Fireba
 
 The **Remote Health Monitoring System** is an Android application designed to make health monitoring more accessible and organized.
 
-Traditional healthcare monitoring often depends on physical hospital visits and manually maintained health records. This project provides a digital platform where users can register, log in, enter health readings, view their health history, monitor health information through charts, and mana<img width="562" height="1280" alt="photo_21_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/e2e435a9-0c4c-4cea-a887-e9744cc27537" />
-<img width="562" height="1280" alt="photo_20_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/bb874c89-dabc-4003-bac3-6c24d39a842a" />
-<img width="562" height="1280" alt="photo_19_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/7400a437-0eb4-4b1f-938c-6c2a26f30495" />
-<img width="562" height="1280" alt="photo_18_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/a6f67963-226a-4281-a436-8f14b65ec54f" />
-<img width="562" height="1280" alt="photo_17_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/22908589-4616-4dac-a444-b81dc4b1e70d" />
-<img width="562" height="1280" alt="photo_16_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/cdd70070-f42d-4719-814b-5369be934020" />
-<img width="562" height="1280" alt="photo_15_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/2b72c38b-c86f-4f5a-9bc8-1f2b83e2bdf7" />
-<img width="562" height="1280" alt="photo_14_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/d703ae6a-c415-409f-9bc3-b74a064ad690" />
-<img width="562" height="1280" alt="photo_13_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/0c3e22f7-6a79-4804-b766-3faae3eb1c74" />
-ge appointments.
+Traditional healthcare monitoring often depends on physical hospital visits and manually maintained health records. This project provides a digital platform where users can register, log in, enter health readings, view their health history, monitor health information through charts, and manage appointments.
 
 Doctors can access patient information, review health records, manage appointments, and provide feedback/recommendations.
 
@@ -1107,8 +1098,17 @@ Give the repository a ⭐ on GitHub and feel free to explore, improve, and exten
 
 
 
-
-<img width="562" height="1280" alt="photo_22_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/c0838b67-3f28-47d3-9ec8-bdc31cef353c" /><img width="562" height="1280" alt="photo_12_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/4da11915-ffef-496a-87b2-0717fbc86e9e" />
+<img width="562" height="1280" alt="photo_21_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/e2e435a9-0c4c-4cea-a887-e9744cc27537" />
+<img width="562" height="1280" alt="photo_20_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/bb874c89-dabc-4003-bac3-6c24d39a842a" />
+<img width="562" height="1280" alt="photo_19_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/7400a437-0eb4-4b1f-938c-6c2a26f30495" />
+<img width="562" height="1280" alt="photo_18_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/a6f67963-226a-4281-a436-8f14b65ec54f" />
+<img width="562" height="1280" alt="photo_17_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/22908589-4616-4dac-a444-b81dc4b1e70d" />
+<img width="562" height="1280" alt="photo_16_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/cdd70070-f42d-4719-814b-5369be934020" />
+<img width="562" height="1280" alt="photo_15_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/2b72c38b-c86f-4f5a-9bc8-1f2b83e2bdf7" />
+<img width="562" height="1280" alt="photo_14_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/d703ae6a-c415-409f-9bc3-b74a064ad690" />
+<img width="562" height="1280" alt="photo_13_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/0c3e22f7-6a79-4804-b766-3faae3eb1c74" />
+<img width="562" height="1280" alt="photo_22_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/c0838b67-3f28-47d3-9ec8-bdc31cef353c" />
+<img width="562" height="1280" alt="photo_12_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/4da11915-ffef-496a-87b2-0717fbc86e9e" />
 <img width="562" height="1280" alt="photo_11_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/0753a559-8f85-4799-aebe-0bfb99e07db9" />
 <img width="562" height="1280" alt="photo_10_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/199cbdeb-34b6-421e-b1e9-2b77b6b07c38" />
 <img width="562" height="1280" alt="photo_9_2026-03-31_22-28-42" src="https://github.com/user-attachments/assets/84255927-b267-402c-b694-b88bf08b76ac" />
